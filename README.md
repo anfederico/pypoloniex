@@ -73,8 +73,7 @@ BTC
 
 #### Get Time Series Data
 
-```
-python
+```python
 # Create TimeSeries object
 sess = TimeSeries()
 
