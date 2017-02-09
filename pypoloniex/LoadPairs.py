@@ -3,18 +3,18 @@ import requests
 class Coin(object):
 
 	def __init__(self, 
-				 id            = "", 
-				 coin          = "",
-				 market        = "",
-				 lowestAsk     = "", 
-				 low24hr       = "", 
-				 highestBid    = "", 
-				 high24hr      = "", 
-				 last          = "",
-		         percentChange = "", 
-		         baseVolume    = "", 
-		         quoteVolume   = "", 
-		         isFrozen      = ""):
+		     id            = "", 
+		     coin          = "",
+		     market        = "",
+		     lowestAsk     = "", 
+		     low24hr       = "", 
+		     highestBid    = "", 
+		     high24hr      = "", 
+		     last          = "",
+		     percentChange = "", 
+		     baseVolume    = "", 
+		     quoteVolume   = "", 
+		     isFrozen      = ""):
 		
 		self.id            = id
 		self.coin          = coin
