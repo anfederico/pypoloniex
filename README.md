@@ -41,7 +41,7 @@ Coin: LTC | Last Price: 0.00381908 btc
 ```
 
 ```python
-# All coin object attributes
+# All Coin object attributes
 print LTC.id
 print LTC.coin
 print LTC.market
