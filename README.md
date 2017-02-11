@@ -3,7 +3,7 @@
 
 [![PyPI version](https://badge.fury.io/py/pypoloniex.svg)](https://badge.fury.io/py/pypoloniex)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/anfederico/Pypoloniex.svg)](https://github.com/Crypto-AI/pypoloniex/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/Crypto-AI/Pypoloniex.svg)](https://github.com/Crypto-AI/pypoloniex/issues)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
