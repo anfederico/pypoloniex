@@ -91,7 +91,12 @@ class TimeSeries(object):
 					row.append(dtp[fld])
 			data.append(row)
 		
-		self.data = pd.DataFrame(data, columns = fields)
+		#make DataFrame with datetime index
+		tempdf=pd.DataFrame(data, columns = fields)
+		tempdf.index=pd.to_datetime(tempdf['date'])
+		tempdf.drop('date', axis=1, inplace=True)
+		
+		self.data = tempdf
 		self.empty = False
 		self.pair = pair
 		self.period = period
