@@ -91,7 +91,6 @@ class TimeSeries(object):
 					row.append(dtp[fld])
 			data.append(row)
 		
-		#make DataFrame with datetime index
 		tempdf=pd.DataFrame(data, columns = fields)
 		tempdf.index=pd.to_datetime(tempdf['date'], dayfirst=True)
 		tempdf.drop('date', axis=1, inplace=True)
