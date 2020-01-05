@@ -7,9 +7,9 @@
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
-## Install
+## Install From Github
 ```python
-pip install pypoloniex
+pip install git+https://github.com/anfederico/pypoloniex
 ```
 
 ## Code Examples
@@ -78,9 +78,9 @@ BTC
 sess = TimeSeries()
 
 # Parameters
-pair = ('BTC', 'LTC')	 # (market, coin)
+pair = ('BTC', 'LTC')    # (market, coin)
 period = 86400           # candle stick period in seconds
-start = '4/2/2014'		 # dd/mm/year
+start = '4/2/2014'	     # dd/mm/year
 end =  '11/2/2014'       # dd/mm/year
 
 # Get time series data from Poloniex and load into pandas dataframe
